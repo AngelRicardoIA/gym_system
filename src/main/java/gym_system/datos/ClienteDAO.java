@@ -148,8 +148,8 @@ public class ClienteDAO implements IClienteDAO{
         return false;
     }
 
-    public static void main(String[] args) {
-        ClienteDAO clienteDAO = new  ClienteDAO();
+//    public static void main(String[] args) {
+//        ClienteDAO clienteDAO = new  ClienteDAO();
 
         //Buscar cliente por ID
 //        var cliente1 = new Cliente(2);
@@ -195,5 +195,5 @@ public class ClienteDAO implements IClienteDAO{
 //        var clientes = clienteDAO.listarClientes();
 //        clientes.forEach(System.out::println);
 
-    }
+//    }
 }
